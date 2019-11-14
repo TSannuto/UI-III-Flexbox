@@ -69,17 +69,25 @@ body {
 	width: 980px;
 	margin: 0 auto;
 	
-
+	
 }
 
 header {
 	display: flex;
+	
+	
 
 }
 
+hr{
+	margin: 30px 0px 30px;
+	padding: 30px 0px;
+}
 header nav {
+
 width: 80%;
 margin: 20px 0px 0px 0px;
+
 }
 
 nav:hover {
@@ -90,56 +98,39 @@ header nav a {
 	text-decoration: none;
 	color: gray;
 	margin-right: 30px;
+	
 }
-
-.top-content{
-	display: flex;
-
-
-}
-.iov h1{
-font-size: 80px;
-text-align: center;
-
-}
-
-.iov {
-	text-align: center;
-	margin: 2%;
-	padding: 8%;
-}
-.top-content img{
-max-width: 50%;
-height: 50%;
-}
-button{
-	border: 1px solid black;
-	padding: 6px 50px;
-	font-size: 14px;
-}
-hr{
-	margin: 0px 0px 30px;
-}
-
-.top-section{
+top-section{
 	display: flex;
 }
+.top-section h2{
+	font-size: 16px;
+	margin-top: 1%;
+	
+}
+.top-section p{
+margin-bottom: 20px;
+margin-top: 20px;
 
-#features{
+}
+
+#services{
 	max-width: 48%
 }
 
-.top-section h2{
-		font-size: 16px;
-		margin-top: 1%;
-		
-}
+
 p{
 	max-width: 90%;
 height: 50%;
 }
+.middle-section{
+	display:flex;
+	width: 48%;
+	border: 2px;
+	background: red;
 
-#about{
+}
+/*#about{
 	max-width: 48%
 }
 
@@ -155,10 +146,15 @@ height: 50%;
 /* the imgage information goes here*/
 
 
-.bottom-section{
+.middle-section{
 	display: flex;
-	margin-top: 4%;
-	margin-bottom: 4%;
+	text-align: left;
+}
+
+p{
+	
+	max-width: 48%;
+height: 50%;
 }
 
 hr{
