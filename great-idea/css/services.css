@@ -65,32 +65,29 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-body {
+/*body2 {
 	width: 980px;
 	margin: 0 auto;
 	
 	
 }
-
-header {
+*/
+header2 {
 	display: flex;
-	
-	
+	width: 100%;
+	height: 50px;
+}
+
+header nav{
+	width: 20%;
+	margin: 20px 0px 50px 0px;
 
 }
 
-hr{
-	margin: 30px 0px 30px;
-	padding: 30px 0px;
-}
-header nav {
 
-width: 80%;
-margin: 20px 0px 0px 0px;
 
-}
 
-nav:hover {
+/*nav:hover {
 	
 }
 
@@ -100,24 +97,24 @@ header nav a {
 	margin-right: 30px;
 	
 }
-top-section{
+.top-content{
 	display: flex;
+
+
 }
-.top-section h2{
-	font-size: 16px;
+.services h2{
+	font-size: 80px;
+	text-align: center;
+}/*.top-content h2{
+	font-size: 80px;
 	margin-top: 1%;
-	
+	border: solid red 3px;
 }
-.top-section p{
+/*.top-section p{
 margin-bottom: 20px;
 margin-top: 20px;
 
 }
-
-#services{
-	max-width: 48%
-}
-
 
 p{
 	max-width: 90%;
@@ -128,6 +125,7 @@ height: 50%;
 	width: 48%;
 	border: 2px;
 	background: red;
+	border: solid red 3px;
 
 }
 /*#about{
@@ -151,7 +149,13 @@ height: 50%;
 	text-align: left;
 }
 
-p{
+.lower-section {
+	display:flex;
+}
+ul.a {
+	list-style-type: circle;
+}
+/*p{
 	
 	max-width: 48%;
 height: 50%;
@@ -161,16 +165,15 @@ hr{
 	margin: 0px 0px 30px;
 }
 
-.contact{
-	text-align: left;
-	font-size: 16px;
-	margin-bottom: 4%;
-}
 
-.footer{
+/*.footer{
 	margin-top: 4%;
 	margin-bottom: 4%;
 	text-align: center;
+}*/
+.footer p{
+	margin-top: 4%;
+	margin-bottom: 4%;
+	text-align: center;
+	background: yellow;
 }
-
-

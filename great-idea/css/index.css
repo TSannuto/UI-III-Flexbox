@@ -178,3 +178,77 @@ hr{
 }
 
 
+/*css for services page starts here*/
+
+body2 {
+	width: 980px;
+	margin: 0 auto;
+	
+	
+}
+/*#body2 header2{
+	display: flex;
+	padding: 20px;
+	border: solid red 5px;
+	margin: 20px 0px 0px 0px;
+
+
+}*/
+
+header2 nav{
+	width: 80%;
+	/*margin: 20px 0px 50px 0px;*/
+	display: flex;
+	padding: 20px;
+	border: solid red 5px;
+	margin: 20px 0px 0px 0px;
+}
+
+/*header2 nav a {
+	text-decoration: none;
+	color: gray;
+	margin-right: 2px;
+	
+}
+/*img .logo2{
+	align-content: left;
+
+}*/
+.top-content{
+	display: flex;
+	margin-bottom: 20px;
+	margin-top: 20px;
+
+}
+.services h2{
+	font-size: 20px;
+	text-align: left;
+}
+.middle-section{
+	display: flex;
+	text-align: left;
+	background: red;
+	flex-direction:  nowrap;
+}
+
+.lower-section {
+	display:flex;
+	
+	}
+	.flex-container {
+		display: flex;
+		flex-direction: column;
+.bullet-list{
+	width: 30%;
+	height: 30%;
+	padding: 3px 0 0 0;
+	text-align: left;
+}
+.bullet-list li{
+	list-style-type: circle;
+	color: black solid;
+}
+/*.lower-section img{
+	max-width: 50%;
+	height: 50%;
+}*/
