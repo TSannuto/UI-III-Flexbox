@@ -26,7 +26,7 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	display:block;
 }
 body {
 	line-height: 1;
@@ -64,3 +64,234 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+	width: 980px;
+	margin: 0 auto;
+	
+
+}
+
+header {
+	display: flex;
+	
+	
+}
+
+header nav {
+width: 90%;
+margin-top: 2%;
+}
+
+/*nav:hover {
+	
+}*/
+
+header nav a {
+	text-decoration: none;
+	color: gray;
+	margin-right: 30px;
+	
+}
+header img{
+	margin-top: 1%;
+}
+ 
+.top-content{
+	display: flex;
+	
+
+}
+.iov h1{
+font-size: 80px;
+text-align: center;
+padding: 0px 75px;
+}
+
+.iov {
+	text-align: center;
+	margin: 4%;
+	padding-top: 30px;
+
+}
+.top-content img{
+
+padding: 30px;
+box-sizing: border-box;
+margin-top: 20px;
+}
+button{
+	border: 1px solid black;
+	padding: 6px 50px 6px 30px;
+	font-size: 14px;
+	
+	align-items: center;
+}
+hr{
+	margin: 0px 0px 30px;
+	max-width: 100%;
+}
+
+.top-section{
+	display: flex;
+}
+
+#features{
+	max-width: 48%
+}
+
+.top-section h2{
+		font-size: 16px;
+		margin-top: 1%;
+		
+}
+p{
+	max-width: 90%;
+height: 50%;
+}
+
+#about{
+	max-width: 48%
+}
+
+.top-section h2{
+		font-size: 16px;
+		margin-top: 1%;
+		
+}
+p{
+	max-width: 90%;
+height: 50%;
+padding-bottom: 30px;
+}
+/* the imgage information goes here*/
+
+
+.bottom-section{
+	display: flex;
+	margin-top: 4%;
+	margin-bottom: 4%;
+}
+
+hr{
+	margin: 0px 0px 30px;
+}
+
+.contact{
+	text-align: left;
+	font-size: 16px;
+	margin-bottom: 4%;
+}
+
+.footer{
+	margin-top: 4%;
+	margin-bottom: 4%;
+	text-align: center;
+}
+
+
+/*css for services page starts here*/
+
+.body2 {
+	width: 980px;
+	margin: 0 auto;
+	
+
+		
+}
+
+.top-content2{
+	margin-bottom: 20px;
+	margin-top: 10px;
+	padding-bottom: 5px;
+	line-height: 1.6;
+}
+h2 .services-heading{
+	font-size: 20px strong;
+}
+ hr{
+	margin-bottom: 30px;
+
+ }
+.middle-section2{
+	display: flex;
+	
+	flex-wrap: wrap; 
+	border: 3px;
+	justify-content: space-between;
+}
+
+.middle-box{
+	width: 450px;
+	border: 1px solid black;
+	background: #edeff2;
+	margin: 15px;
+	padding: 15px; 
+	height: 90% vh;
+	justify-items: space-between;
+}
+
+
+.box-text{
+	/* line-height: 1; */
+	padding: 2px;
+	border: 1px;
+	 margin:30px; 
+
+} 
+.box-paragraph{
+	line-height: 1.6
+}
+
+.button{
+	/* margin-top: 5px; */
+	margin-left: 15px;
+	padding-top: 5px;
+	
+}
+.six-buttons{
+ margin-left: 15px;
+ border-radius: 25px;
+ border: 5px;
+}
+
+.lower-section {
+	display:flex;
+	}
+.lower-container{
+	flex-wrap: wrap;
+
+}
+	.lower-container-left{
+	max-width: 49%;
+	border: 3px;
+	padding: 15px;
+	height: 320px;
+	}
+	  
+
+
+	/* .bullet-list{
+		height: 50%;
+		width: 50%;
+		border: 2px;
+		margin: 15px;
+	} */
+.bullet-list{
+		padding-top: 6px;
+		list-style-type: square;
+		line-height: 1.6;
+		margin: 20px;
+	}
+.image-container{
+	max-width: 50%;
+	height: 50%;
+}
+
+.service-footer{
+	align-content: center;
+}
+.servce-footer{
+	text-align: center;
+	padding-top: 15px;
+}
